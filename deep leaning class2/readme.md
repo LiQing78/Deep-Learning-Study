@@ -21,7 +21,6 @@ But please DO REMEMBER procedures of SIFT and HoG. For those who're interested i
 # [Coding]:	
 
 1. 
-
     Finish 2D convolution/filtering by your self. 
     
     What you are supposed to do can be described as "median blur", which means by using a sliding window on an image,    
@@ -39,10 +38,8 @@ But please DO REMEMBER procedures of SIFT and HoG. For those who're interested i
 
     Python version:
     
-    def medianBlur(img, kernel, padding_way):
-    
-        img & kernel is List of List; padding_way a string
-        
+    def medianBlur(img, kernel, padding_way):    
+        img & kernel is List of List; padding_way a string        
         Please finish your code under this blank
 
 
