@@ -18,12 +18,14 @@ But please DO REMEMBER procedures of SIFT and HoG. For those who're interested i
    
    SURF: https://www.vision.ee.ethz.ch/~surf/eccv06.pdf
    
-# [Coding]:			
+# [Coding]:	
+
 1. 
+
     Finish 2D convolution/filtering by your self. 
-    What you are supposed to do can be described as "median blur", which means by using a sliding window 
-    on an image, your task is not going to do a normal convolution, but to find the median value within 
-    that crop.
+    
+    What you are supposed to do can be described as "median blur", which means by using a sliding window on an image,    
+    your task is not going to do a normal convolution, but to find the median value within that crop.
 
     You can assume your input has only one channel. (a.k.a a normal 2D list/vector)
     And you do need to consider the padding method and size. There are 2 padding ways: REPLICA & ZERO. When 
@@ -36,8 +38,11 @@ But please DO REMEMBER procedures of SIFT and HoG. For those who're interested i
     Follow up 1: Can it be completed in a shorter time complexity?
 
     Python version:
+    
     def medianBlur(img, kernel, padding_way):
+    
         img & kernel is List of List; padding_way a string
+        
         Please finish your code under this blank
 
 
